@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="Ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ,<title>Я ЛЮБЛЮ ТИМУРА</title>
+    <style>
+        html, body {padding-left: 90px; padding-right: 90px; font-size: 25px;}
+        .menu {
+         padding-left: 90px;
+        }
+        .menu_link {
+            color: green;
+            text-decoration: none;
+        }
+        .menu_link_logo{
+            color: red;
+            text-decoration: none;
+            font-size: 40px;
+        }
+        .menu_link_logo:hover{
+            color: #434343;
+            transition: 0.4s;
+        }
+        .menu_link:hover {
+            color: red;
+            transition: 0.4s;
+        }
+        .block {
+            background-color: whitesmoke;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        input[type=button]{
+            color: blue;
+            border:solid 1px #434343 ;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .button:hover {
+            transition: 0.3s;
+            background-color: green;
+            cursor: pointer;
+            color: white;
+        }
+        .close {
+            cursor:pointer
+        }
+    
+    </style>
+<script>
+    function script() {
+        var text = "я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 я люблю тимура<3 "
+        document.getElementById("id").innerHTML= 'я люблю тимура<3  :' + text + 
+        '<p align="center" class="close" onclick="return scriptClose()">Закрыть</p>'
+    }
+    function scriptClose() {
+        document.getElementById("id").innerHTML=""
+    }
+</script>
+</head>
+<body>
+    <h1 align="center">ЭТО ПОСВЕЩАЕТСЯ САМОМУ ЛУЧШЕМУ БРАТУ!</h1>
+    <hr color="Orange" width="90%" size="5px"
+    <nav class="menu">
+        <a href="mile.html" title="там сказана одна правда" class="menu_link_logo">ЭТО ВСЕ ТОЛЬКО РАДИ ТЕБЯ</a>
+        <a href="index.html" class="menu_link">Сор</a>
+        <a href="index.html" class="menu_link">это</a>
+        <a href="index.html" class="menu_link">говно</a>
+        <a href="index.html" class="menu_link">никуда не перекидывает(но могу сделать так чтобы кидала)</a>
+    </nav>
+    <div class="all">
+        <p>Пока тебя не было я старался сделать это для тебя<3</p>
+    </div>
+    <div class="block">
+        <p align="center">Спасибо тебе ещё раз за все</p>
+        <p>Я очень ценю нашим общением, ты самый лучший кто не пон</p>
+    </div>
+
+    <details>
+        <summary>Пупсик, нажми сюда</summary>
+        <p>Тимур лучший</p>
+    </details>
+
+    <input value="И не забудь нажать сюда" onclick="return script()" class="button" type="button"/>
+    <div id="id"></div>
+    <hr color="Orange" size="3px"/>
+    <div align="center">С любовью Виктор<3</div>
+</body>
+</html>
